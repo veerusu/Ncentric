@@ -7,7 +7,7 @@ This project implements automated testing for [Netcentric](https://www.netcentri
 - Automated browser tests for Chromium (with optional support for Firefox, WebKit, and mobile devices)
 - Session state management
 - Screenshot capture for each test
-- HTML test reporting
+- Allure reporting
 - CI integration via GitHub Actions
 
 ## Project Structure
@@ -30,9 +30,9 @@ This project implements automated testing for [Netcentric](https://www.netcentri
    npx playwright test
    ```
 
-3. **View HTML report:**
+3. **Generate and view Allure report:**
    ```bash
-   npx playwright show-report
+   npm run test:allure
    ```
 
 ## Implementation Notes
