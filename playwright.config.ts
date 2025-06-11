@@ -6,12 +6,12 @@ export default defineConfig({
   reporter: 'html',
   globalSetup: require.resolve('./src/hooks/globalSetup'),
   use: {
-    headless: false,
+    headless: true,
     trace: 'on-first-retry',
     baseURL: 'https://www.netcentric.biz',
     storageState: './src/helper/auth/session.json',
     screenshot: 'on',
-    video: 'on',
+    video: 'retain-on-failure',
   },
 
   projects: [
