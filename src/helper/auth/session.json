@@ -1,0 +1,92 @@
+{
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "value": "CNtIWrp4CrwOjlsAvE0MGpYHuf8MIMctFxZQcTaLDYs-1749594133-1.0.1.1-mYC55V73VGRT0fAIkarAac9pvA4Ox_Vycr4ShuhU6gJn4jIrf8D8AvfBrXrhghf6A9nv_v0ArkZiiqWBPIULXH64k.TCFi_6FDwS7_4R0h8",
+      "domain": ".cookiepro.com",
+      "path": "/",
+      "expires": 1749595933.904496,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2025-06-10T22:22:15.202Z",
+      "domain": ".netcentric.biz",
+      "path": "/",
+      "expires": 1781130135,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Wed+Jun+11+2025+01%3A22%3A15+GMT%2B0300+(Eastern+European+Summer+Time)&version=6.39.0&isIABGlobal=false&hosts=&consentId=89ba5cff-be0e-4097-abb2-55d6d3e7a854&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1",
+      "domain": ".netcentric.biz",
+      "path": "/",
+      "expires": 1781130135,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mbox",
+      "value": "session#01b32655e68f4d3e80fb00a0de0efa6e#1749595996",
+      "domain": ".netcentric.biz",
+      "path": "/",
+      "expires": 1749595996,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "at_check",
+      "value": "true",
+      "domain": ".netcentric.biz",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1749594135222.84473122152064966",
+      "domain": ".netcentric.biz",
+      "path": "/",
+      "expires": 1757370135,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.netcentric.biz",
+      "localStorage": [
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1749594134331"
+        },
+        {
+          "name": "topicsLastReferenceTime",
+          "value": "1749594135226"
+        }
+      ]
+    },
+    {
+      "origin": "https://fast.wistia.net",
+      "localStorage": [
+        {
+          "name": "wistia",
+          "value": "{\"__distillery\":\"1749594_0cbd1533-04b6-4a9b-b5ff-ad9fa4a23052-fe57f85d8-c02538ad1e01-7341\",\"accounts_loaded\":{\"wistia-production_566778\":1749594130672},\"medias_loaded\":{\"4ezx50at0y\":1749594130672},\"visitor_version\":0}"
+        }
+      ]
+    }
+  ]
+}
