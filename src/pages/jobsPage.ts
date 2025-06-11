@@ -39,7 +39,9 @@ export default class JobsPage {
     async goToPage(pageNumber: number) {
     const link = this.paginationLink(pageNumber);
     await link.click();
-    await this.page.waitForLoadState('domcontentloaded');
+    await expect(
+        this.iframeLocator.locator(`div.pagination a.active:text-is("${pageNumber}")`)
+    ).toBeVisible();
     }
 
     async assertJobsAreVisible() {
