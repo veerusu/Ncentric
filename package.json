@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test --config=playwright.config.ts"
+    "test": "npx playwright test --config=playwright.config.ts",
+    "test:allure": "playwright test && npx allure generate allure-results --clean -o allure-report && npx allure open allure-report"
   },
   "keywords": [],
   "author": "Vladimir",
@@ -12,6 +13,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
-    "@types/node": "^24.0.0"
+    "@types/node": "^24.0.0",
+    "allure-commandline": "^2.34.0",
+    "allure-playwright": "^3.2.2"
   }
 }

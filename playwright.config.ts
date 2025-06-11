@@ -3,7 +3,10 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './src/tests',
   fullyParallel: true,
-  reporter: 'html',
+  reporter: [
+    // ['html'],
+    ['allure-playwright']
+  ],
   globalSetup: require.resolve('./src/hooks/globalSetup'),
   use: {
     headless: true,
